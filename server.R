@@ -753,18 +753,18 @@ shinyServer(function(input, output, session) {
       updateDateRangeInput(session,
                            "casesDates",
                            "Dates:",
-                           start = as.Date('2020-12-31',"%Y-%m-%d"),
-                           end = as.Date('2020-12-31',"%Y-%m-%d"),
-                           min = as.Date("2020-01-01","%Y-%m-%d"),
-                           max = as.Date("2020-12-31","%Y-%m-%d"))
+                           start = as.Date('2021-12-31',"%Y-%m-%d"),
+                           end = as.Date('2021-12-31',"%Y-%m-%d"),
+                           min = as.Date("2021-01-01","%Y-%m-%d"),
+                           max = as.Date("2021-12-31","%Y-%m-%d"))
     } else {
       updateDateRangeInput(session,
                            "casesDates",
                            "Dates:",
-                           start = as.Date('2019-11-01',"%Y-%m-%d"),
-                           end = as.Date('2020-12-31',"%Y-%m-%d"),
-                           min = as.Date("2019-11-01","%Y-%m-%d"),
-                           max = as.Date("2020-12-31","%Y-%m-%d"))
+                           start = as.Date('2020-11-01',"%Y-%m-%d"),
+                           end = as.Date('2021-12-31',"%Y-%m-%d"),
+                           min = as.Date("2020-11-01","%Y-%m-%d"),
+                           max = as.Date("2021-12-31","%Y-%m-%d"))
     }
   })
   
